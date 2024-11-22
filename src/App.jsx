@@ -22,12 +22,7 @@ function App() {
 
   return (
     <>
-    <section id='section_1'
-    style={{
-        background: `url(${section1Img}), linear-gradient(120deg, hsl(13, 100%, 72%) 23%, hsl(353, 100%, 62%) 35%)`,
-        backgroundPosition: '20% 50%',
-        backgroundSize: '200%',
-    }}>
+    <section id='section_1'>
       {isMobile ? <MobileHeader /> : <Header /> }
       <h1>A modern publishing platform</h1>
       <p>Grow your audience and build your online brand</p>

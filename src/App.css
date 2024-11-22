@@ -13,6 +13,9 @@
     font-size:1.5em;
 }
 #section_1{
+    background: url('./assets/images/bg-pattern-intro-desktop.svg'), linear-gradient(120deg, hsl(13, 100%, 72%) 23%, hsl(353, 100%, 62%) 35%);
+    background-position: 20% 50%;
+    background-size: 200%;
     text-align: center;
     padding-bottom: 15lvh;
     border-radius: 0 0 0 6.25lvw;
