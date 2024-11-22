@@ -1,0 +1,63 @@
+#hamburger_menu > div > div > .nav_dropdown{
+	position:relative;
+    margin:3.5lvh auto 0 auto;
+    background-color: hsla(240, 29%, 90%, 0.378);
+    width:70%;
+}
+#hamburger_menu > div > div > .nav_button{
+	color: hsl(207, 13%, 34%);
+    font-size:1.2em;
+}
+#hamburger_menu{
+    z-index:10;
+    max-width: 80lvw;
+    margin:0 auto;
+    border-radius: 0.42lvw;
+}
+#menu_flex{
+    display:flex;
+    justify-content: space-between;
+    padding: 10lvh 15lvw 7lvh 15lvw;
+    align-items: end;
+}
+#menu_icon{
+    width:5lvw;
+    height:4lvh;
+}
+#ham_logo{
+    width:15lvw;
+    height:8.88lvh;
+    margin-bottom:-2lvh;
+}
+#ham_login{
+    color:hsl(207, 13%, 34%);
+    font-size: 1.2em;
+}
+hr{
+    width:80%;
+    color:hsla(240, 29%, 90%, 0.378);
+}
+#hamburger_menu > div > #button{
+    width:fit-content;
+    background-color:hsl(355, 100%, 74%);
+    color:#fff
+}
+#hamburger_menu > div > #button:hover{
+    cursor: pointer;
+    color:hsl(355, 100%, 74%);
+    background-color:#fff;
+    border:1px solid hsl(355, 100%, 74%);
+}
+
+@media (min-width:501px) and (max-width:799px){
+    #hamburger_menu{
+        z-index:10;
+        max-width: 60lvw;
+    }
+    #menu_flex{
+        display:flex;
+        justify-content: space-between;
+        padding: 10lvh 10lvw 7lvh 10lvw;
+        align-items: end;
+    }
+}

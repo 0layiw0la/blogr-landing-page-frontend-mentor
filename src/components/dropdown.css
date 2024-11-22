@@ -1,0 +1,36 @@
+.nav_button{
+	background-color: inherit;
+	color:#fff;
+	padding:0;
+    margin-right: 3px;
+    border: none;
+}
+.nav_button:focus{
+    outline:none;
+}
+.nav_button:hover{
+	cursor:pointer;
+	text-decoration-line: underline;
+	text-decoration-color: #fff;
+	text-decoration-thickness: 1.5px;
+}
+.nav_dropdown{
+	position:absolute;
+	display:none;
+	flex-direction: column;
+	gap:10px;
+	z-index: 10;
+	background-color:#fff;
+	width:120px;
+	padding:20px;
+	border-radius:6px;	
+	margin:3.5lvh 0 0 0;
+}
+.nav_dropdown > a{
+	text-decoration: none;
+	color:#000;
+	font-weight:300;	
+}
+.nav_dropdown > a:hover{
+	font-weight:600;
+}

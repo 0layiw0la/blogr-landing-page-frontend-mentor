@@ -1,0 +1,33 @@
+#nav{
+    padding: 10lvh 10lvw 0 10lvw;
+    display:flex;
+    align-items: end;
+    gap: 3.5lvw;
+}
+#header_img{
+    width:10lvw;
+    height:auto;
+}
+#nav > img{
+    position:relative;
+    bottom:-10px;
+}
+.right_nav{
+    margin-left:auto;
+    display:flex;
+    align-items:end;
+    gap:3.5lvw;
+}
+.right_nav > a{
+    color:#fff;
+}
+.right_nav > #button{
+    position:relative;
+    bottom:-10px;
+}
+
+@media (max-width:1000px){
+    #nav{
+        padding: 5lvh 10lvw 0 10lvw;
+    }
+}

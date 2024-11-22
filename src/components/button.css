@@ -1,0 +1,10 @@
+#button{
+    padding:10px 30px;
+    border-radius: 30px;
+    color:hsl(355, 100%, 74%);
+    background-color: #fff;
+}
+#button:hover{
+    background-color: hsl(355, 100%, 74%);
+    color:#fff;
+}
