@@ -60,11 +60,7 @@ function App() {
     </section>
 
     <section id="section_3">
-      <div id="section_3_flex" style={{
-        background: `url(${section3BgImg}), linear-gradient(120deg, hsl(237, 17%, 21%) 30%, hsl(237, 23%, 32%) 50%)`,
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: '-100% 80%',
-      }}>
+      <div id="section_3_flex">
         <img id="section_3_img" src={section3Img}/>
         <div id="section_3_text_flex">
           <h2>State of the Art Infrastructure</h2>

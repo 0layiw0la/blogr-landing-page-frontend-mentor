@@ -81,6 +81,9 @@
     background: #fff;
 }
 #section_3_flex{
+    background: url('./assets/images/bg-pattern-circles.svg'), linear-gradient(120deg, hsl(237, 17%, 21%) 30%, hsl(237, 23%, 32%) 50%);
+    background-repeat: no-repeat;
+    background-position: -100% 80%;
     border-radius: 0 70px 0 70px;
     display:flex;
     height:73lvh;
