@@ -214,6 +214,7 @@
         top:0;
     } 
     #section_2image{
+
         right:0;
         background-size: 140% 70%;
         top:-12lvh;
@@ -296,7 +297,7 @@
         margin:0
     }
     #section_2image{
-        background: url('src/assets/images/illustration-editor-mobile.svg');
+        background: url('./assets/images/illustration-editor-mobile.svg');
         width:90lvw;
         height: 40lvh;
         top:0lvh;
